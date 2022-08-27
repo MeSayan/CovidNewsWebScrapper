@@ -1,8 +1,11 @@
 ## Requirements
 
-* [PLY](https://www.dabeaz.com/ply/). Make sure ply folder is present in the source code file. Project Structure
+* [PLY](https://www.dabeaz.com/ply/). Make sure ply folder is present in the source code file. 
 * [WordCloud](https://pypi.org/project/wordcloud/)
 * [NLTK](https://pypi.org/project/nltk/)
+
+
+Project Structure
 
 ```
 ProjectFolder
@@ -105,12 +108,17 @@ The following short form has been adopted for the queries
 
 ### Command for Wikipedia Series 
 
-1. Q1 : Part 1
-2. Q2 : Part 2
-3. Q3 : Part 3
-4. Q4 : Part 4
-5. Q5 : Part 5
-6. Q6 : Part 6
+1. Q1: Shows world wide Covid News & Responses between 2 given dates and plots word-clouds for both
+
+2. Q2: Given two non-overlapping time ranges, do the following: Plots two different word clouds for all the common words (ignoring stopwords) and only covid related common words.  Prints the percentage of covid related words in common words (ignore stopwords). Prints the top-20 common words (ignore stopwords) and covid related words.
+
+3. Q3: Given a country, displays date-range for which news is available.
+
+4. Q4 : Given a country, and date-range displays news in this date range, and plots word-cloud for the same.
+
+5. Q5 : Given a country, and a date-range, displays the top 3 closest countries based on the Jaccard Similarity of extracted news.
+
+6. Q6 : Same as Q5, but considering only covid related words
 
 #### Command format
 
